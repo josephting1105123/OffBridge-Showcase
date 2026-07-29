@@ -1,33 +1,33 @@
-# 🌐 Clipboard Share
+# 🌐 OffBridge
 
-> **Status:** Android in beta on Google Play · Windows installer available below · **Windows 3.6.2 / Android 3.6.4**
+> **Status:** Android in beta on Google Play · Windows installer available below · **Windows 3.7.8 / Android 3.7.2**
 
-**Clipboard Share** is a privacy-first, cross-platform productivity tool with native **Android and
+**OffBridge** is a privacy-first, cross-platform productivity tool with native **Android and
 Windows** clients that speak one byte-identical wire protocol. It uses a custom peer-to-peer local
 network to sync clipboards and transfer large files between devices — without ever routing your data
 through third-party cloud servers.
 
 <p align="center">
-  <a href="https://github.com/josephting1105123/ClipboardShare-Showcase/releases/latest/download/ClipboardShareSetup.exe"><img src="https://img.shields.io/badge/Download-Windows-2ea44f?style=for-the-badge&logo=windows" alt="Download for Windows"/></a>
+  <a href="https://github.com/josephting1105123/OffBridge-Showcase/releases/latest/download/OffBridgeSetup.exe"><img src="https://img.shields.io/badge/Download-Windows-2ea44f?style=for-the-badge&logo=windows" alt="Download for Windows"/></a>
   <a href="https://play.google.com/store/apps/details?id=com.EntropicSoftwareLab.ClipboardShare"><img src="https://img.shields.io/badge/Google%20Play-Android-414141?style=for-the-badge&logo=googleplay" alt="Get it on Google Play"/></a>
-  <img src="https://img.shields.io/badge/version-Windows_3.6.2_%7C_Android_3.6.4-blue?style=for-the-badge" alt="Windows 3.6.2 / Android 3.6.4"/>
+  <img src="https://img.shields.io/badge/version-Windows_3.7.8_%7C_Android_3.7.2-blue?style=for-the-badge" alt="Windows 3.7.8 / Android 3.7.2"/>
 </p>
 
 ---
 
 ## ⬇️ Download
 
-- **Windows** — [**Download the installer**](https://github.com/josephting1105123/ClipboardShare-Showcase/releases/latest/download/ClipboardShareSetup.exe). The download starts immediately. Windows 10/11. The installer isn't code-signed yet, so SmartScreen may say "unknown publisher" — click **More info → Run anyway**.
-- **Android** — [**Get it on Google Play**](https://play.google.com/store/apps/details?id=com.EntropicSoftwareLab.ClipboardShare). Android 10 or newer.
+- **Windows** — [**Download the installer**](https://github.com/josephting1105123/OffBridge-Showcase/releases/latest/download/OffBridgeSetup.exe). The download starts immediately. Windows 10/11. The installer isn't code-signed yet, so SmartScreen may say "unknown publisher" — click **More info → Run anyway**.
+- **Android** — [**Get it on Google Play**](https://play.google.com/store/apps/details?id=com.EntropicSoftwareLab.ClipboardShare), or [**download the APK**](https://github.com/josephting1105123/OffBridge-Showcase/releases/latest/download/OffBridge-android.apk) to sideload without a Play account. Android 10 or newer.
 
-The Windows link always points at the newest release, so it never goes stale.
+Both links always point at the newest release, so they never go stale.
 
 ---
 
 ## 🚀 The Vision: Zero-Cloud, Zero-Trust
 
 Most file-sharing apps share three flaws: they need internet access, they cap file sizes, and they
-route personal clipboard data through company servers. Clipboard Share keeps 100% of traffic on your
+route personal clipboard data through company servers. OffBridge keeps 100% of traffic on your
 local network using direct socket connections, and seals every payload with authenticated
 encryption before it leaves the device. When there's no network at all, it builds its own link
 between the two devices and transfers over that.
